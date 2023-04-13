@@ -1,0 +1,33 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "henrycramer_a2ruA7",
+  "access_key": "etxEwsPRWGevM1vVSLVP",
+  "ios-app": "bs://444bd0308813ae0dc236f8cd461c02d3afa7901d",
+  "android-app": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "browserstack-build-1",
+    "name": "first_test",
+    "browserstack.debug": true
+  },
+  "Android": [
+    {
+      "device": "Samsung Galaxy S21",
+      "os_version": "11.0"
+    },
+    {
+      "device": "Samsung Galaxy A51",
+      "os_version": "10.0"
+    }
+  ],
+  "iOS": [
+    {
+      "device": "iPhone 13",
+      "os_version": "15"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "os_version": "14"
+    }
+  ]
+}
